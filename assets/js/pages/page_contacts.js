@@ -9,13 +9,14 @@ var ContactPage = function () {
 			  map = new GMaps({
 				div: '#map',
 				scrollwheel: false,				
-				lat: 18.6570867,
-				lng: 72.8712317
+				lat: 18.657739, 
+				lng: 72.8714278, 
+				zoom: 16
 			  });
 			  
 			  var marker = map.addMarker({
-				lat: 18.6570867,
-				lng: 72.8712317,
+				lat: 18.657743 , 
+				lng: 72.872012, 
 	            title: 'alibag ONE'
 		       });
 			});
